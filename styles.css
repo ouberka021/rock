@@ -1,0 +1,110 @@
+body {
+  text-align: center;
+  background-color: #9d741a;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #c7ab69;
+
+}
+table{
+    width: 40%;
+    color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 1px 0 #c7ab69;
+  font-size: 2rem;
+  margin: 0 auto;
+  
+}
+
+footer {
+    margin-top: 100px;
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.r {
+ background-image: url('images/rock2.png');
+ background-size: 150px;
+ background-repeat: no-repeat;
+}
+
+.p {
+  background-image: url('images/paper-emoji.png');
+  background-size: 125px;
+  background-repeat: no-repeat;
+}
+
+.s {
+  background-image: url('images/scissor.png');
+  background-size: 150px; 
+  background-repeat: no-repeat;
+
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #c7a675;
+  font-size: 1.6rem;
+  font-family: 'Arvo', cursive;
+  line-height: 1;
+  font-weight: 900;
+  color: #472f05;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  transition: 100ms;
+}
+.drum:hover {
+  outline: none;
+  border: 10px solid #c7a675;
+  font-size: 1.6rem;
+  font-family: 'Arvo', cursive;
+  line-height: 1;
+  font-weight: 900;
+  color: #472f05;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color:#fff;
+  transform: scale(1.2);
+}
+.results{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+justify-items: center;
+align-items: center;
+}
+
+
